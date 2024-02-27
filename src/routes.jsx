@@ -4,7 +4,8 @@ import {
 import Layout from "./containers/Layout";
 import Home from "./pages/Home/index";
 import Employee from "./pages/Employee";
-import App from "./App";
+import Category from "./pages/Product/Category";
+
 
 export const Router = () => {
   return createBrowserRouter([
@@ -21,6 +22,11 @@ export const Router = () => {
           path: "/employee",
           element: <Employee />,
           lazy: () => import('./pages/Employee')
+        },
+        {
+          path: "/category",
+          element: <Category />,
+          lazy: () => import('./pages/Product/Category')
         },
         {
           path: "*",
