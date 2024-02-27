@@ -35,7 +35,7 @@ export default function Layout() {
           {
             menu: "category",
             display: "Category",
-            path: "/employee",
+            path: "/category",
           },
         ],
       },

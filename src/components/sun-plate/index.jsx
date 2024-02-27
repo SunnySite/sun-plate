@@ -1,3 +1,5 @@
-import Card from "./components/Card";
+import Card from "./components/Card/Card";
+import CardHeader from "./components/Card/CardHeader";
+import CardBody from "./components/Card/CardBody";
 
-export { Card };
+export { Card, CardHeader, CardBody };
