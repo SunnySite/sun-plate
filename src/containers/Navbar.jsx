@@ -41,7 +41,7 @@ const Navbar = ({ Menus }) => {
                 <li key={`${menu.menu}_${index}`} className="hover:border-none">
                   <button
                     type="button"
-                    className="flex items-center w-full p-2 text-base text-white transition duration-75 rounded-lg group focus:outline-none hover:border-none border-none hover:bg-gray-400 dark:text-white hover:text-white dark:hover:bg-gray-700"
+                    className="flex items-center w-full p-2 text-base text-black transition duration-75 rounded-lg group focus:outline-none hover:border-none border-none hover:bg-gray-400 dark:text-black hover:text-white"
                     aria-controls={menu.menu}
                     data-collapse-toggle={menu.menu}
                     onClick={() => handleClick(menu.menu)}
